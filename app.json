@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo50auth",
     "slug": "expo50auth",
+    "scheme": "expo50auth",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
